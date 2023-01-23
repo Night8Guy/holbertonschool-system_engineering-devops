@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Beheaded
+
+pgrep -f 7-highlander |xargs kill -9

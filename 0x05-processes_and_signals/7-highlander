@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# There can only be one
+
+trap "echo I am invincible!!!" SIGTERM
+
+while true; do
+	echo "to infinity and beyond"
+	sleep 2
+done;
